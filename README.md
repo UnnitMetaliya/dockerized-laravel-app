@@ -26,7 +26,8 @@
 - Run command ```php artisan breeze:install``` on your terminal after going into php container on docker through previous command
 - Run command ```php artisan migrate```
 - Run command ```npm install``
-- On your browser, go to ```localhost:8001/register``` for registration page and go to ```localhost:8001/login``` for login page
+- On your browser, go to ```localhost:8001/register``` (or click register) for registration page and go to ```localhost:8001/login``` (or click login) for login page
+
 
 ## Some troubleshooting commands
 
