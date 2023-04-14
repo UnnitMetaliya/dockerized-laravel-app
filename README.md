@@ -31,6 +31,6 @@
 
 ## Some troubleshooting commands
 
-- while in php container, you may run ```php artisan config:cache``` or ```php artisan route:clear``` or ```php artisan optimize``` as debugging commands if you are facing some issues.
+- while in php container, you may run ```php artisan config:cache``` or ```php artisan route:clear``` or ```php artisan optimize``` as debugging commands if you are facing some issues like route not found, connection issues etc.
 
 **Note: if you got a permission error when running docker, try running it as an admin or use sudo in linux**
