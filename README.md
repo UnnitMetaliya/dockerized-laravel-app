@@ -20,4 +20,16 @@
 - Run command ```php artisan migrate:fresh --seed```
 - Go to http://localhost:8001 or any port you set to open laravel
 
+## Login and Register
+
+- Run command ```docker exec -it php /bin/sh``` on your terminal
+- Run command ```php artisan breeze:install``` on your terminal after going into php container on docker through previous command
+- Run command ```php artisan migrate```
+- Run command ```npm install``
+- On your browser, go to ```localhost:8001/register``` for registration page and go to ```localhost:8001/login``` for login page
+
+## Some troubleshooting commands
+
+- while in php container, you may run ```php artisan config:cache``` or ```php artisan route:clear``` or ```php artisan optimize``` as debugging commands if you are facing some issues.
+
 **Note: if you got a permission error when running docker, try running it as an admin or use sudo in linux**
